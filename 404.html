@@ -14,7 +14,7 @@
         
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
@@ -24,6 +24,9 @@
     
     
       <link rel="stylesheet" href="/assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,7 +54,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -73,8 +83,7 @@
   <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
     <a href="/." title="MTR26" class="md-header__button md-logo" aria-label="MTR26" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="/assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -97,6 +106,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -173,8 +208,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="/." title="MTR26" class="md-nav__button md-logo" aria-label="MTR26" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="/assets/logo.png" alt="logo">
 
     </a>
     MTR26
@@ -196,7 +230,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    index
   
 
     
@@ -219,20 +253,15 @@
     
     
     
-      
-        
-        
-      
     
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -275,7 +304,7 @@
   <span class="md-ellipsis">
     
   
-    CE1   Grundfertigkeiten in der Radiologietechnologie entwickeln und Sicherheit gewährleisten
+    CE1 - Grundfertigkeiten in der Radiologietechnologie entwickeln und Sicherheit gewährleisten
   
 
     
@@ -324,6 +353,34 @@
   
   
     <li class="md-nav__item">
+      <a href="/Fach%20CE1/M1.1.2%20-%20Gesetzliche%20Organisation%20des%20Strahlenschutzes%20%26%20Umsetzung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1.1.2 - Gesetzliche Organisation des Strahlenschutzes &amp; Umsetzung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="/Fach%20CE1/M1.1.3%20-%20Umgang%20mit%20ionisierender%20Strahlung%20im%20beruflichen%20Handlungsfeld/" class="md-nav__link">
         
   
@@ -331,7 +388,7 @@
   <span class="md-ellipsis">
     
   
-    M1.1.3   Umgang mit ionisierender Strahlung im beruflichen Handlungsfeld
+    M1.1.3 - Umgang mit ionisierender Strahlung im beruflichen Handlungsfeld
   
 
     
@@ -359,7 +416,35 @@
   <span class="md-ellipsis">
     
   
-    M1.2.1   Aufgaben und Sicherheit im beruflichen Handlungsfeld als MTR
+    M1.2.1 - Aufgaben und Sicherheit im beruflichen Handlungsfeld als MTR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Fach%20CE1/M1.2.2%20-%20Erste%20Hilfe%20und%20Notfallmanagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1.2.2 - Erste Hilfe und Notfallmanagement
   
 
     
@@ -387,7 +472,35 @@
   <span class="md-ellipsis">
     
   
-    M1.2.3   Hygienisches Arbeiten im Gesundheitswesen
+    M1.2.3 - Hygienisches Arbeiten im Gesundheitswesen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Fach%20CE1/M1.2.5%20-%20Pharmakologie%20und%20Applikation%20im%20Berufskontext/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1.2.5 - Pharmakologie und Applikation im Berufskontext
   
 
     
@@ -418,20 +531,15 @@
     
     
     
-      
-        
-        
-      
     
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -474,7 +582,7 @@
   <span class="md-ellipsis">
     
   
-    CE2   Berufstypische Handlungen an Geräten zur bildgebenden Diagnostik oder Therapie mit ionisierender Strahlung ausführen
+    CE2 - Berufstypische Handlungen an Geräten zur bildgebenden Diagnostik oder Therapie mit ionisierender Strahlung ausführen
   
 
     
@@ -502,7 +610,35 @@
   <span class="md-ellipsis">
     
   
-    M2.1.1   Physikalische Grundlagen bildgebender Systeme
+    1. Gleichungen umstellen, Physikalische Größen und Einheiten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Fach%20CE2/M2.1.2%20-%20Bildentstehung%20und%20-verarbeitung%20in%20der%20Projektionsradiographie%20inkl.%20Praktischer%20%C3%9Cbungen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2.1.2 - Bildentstehung und -verarbeitung in der Projektionsradiographie inkl. Praktischer Übungen
   
 
     
@@ -533,20 +669,15 @@
     
     
     
-      
-        
-        
-      
     
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -589,7 +720,7 @@
   <span class="md-ellipsis">
     
   
-    CE3   Als Berufsangehöriger in der bildgebenden Diagnostik sicher handeln
+    CE3 - Als Berufsangehöriger in der bildgebenden Diagnostik sicher handeln
   
 
     
@@ -631,6 +762,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Fach%20CE3/M3.2.1%20-%20Anatomie%20und%20Physiologie%20des%20muskuloskelettalen%20Systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3.2.1 - Anatomie und Physiologie des muskuloskelettalen Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -648,20 +807,15 @@
     
     
     
-      
-        
-        
-      
     
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -704,7 +858,7 @@
   <span class="md-ellipsis">
     
   
-    CE6   Meine Lernendenrolle ausgestalten
+    CE6 - Meine Lernendenrolle ausgestalten
   
 
     
@@ -732,7 +886,7 @@
   <span class="md-ellipsis">
     
   
-    M6.1.1   Entwicklung eines beruflichen Rollenverständnis unter rechtlichen Rahmenbedingungen
+    1. Entwicklung des Berufsstandes und der organisierten Interessenvertretungen
   
 
     
@@ -760,7 +914,7 @@
   <span class="md-ellipsis">
     
   
-    Handlungsoperatoren
+    M6.2 - Wissensmanagement
   
 
     
@@ -808,6 +962,14 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+              
               <article class="md-content__inner md-typeset">
                 
   <h1>404 - Not found</h1>
@@ -854,10 +1016,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.path", "navigation.top", "search.suggest", "search.highlight"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="/assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="/javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
